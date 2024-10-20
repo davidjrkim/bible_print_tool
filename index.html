@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <form id="bible">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="firstTitle">First title</label>
+                        </div>
+                        <div class="col-75">
+                            <input
+                                type="text"
+                                id="firstTitle"
+                                name="firstTitle"
+                                placeholder="Asan'ny Apostoly 1:8..."
+                            />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="firstVerse">First verse</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea
+                                id="firstVerse"
+                                name="firstVerse"
+                                placeholder="Fa hahazo hery ianareo amin'ny hilatsahan'ny Fanahy Masina aminareo, ary ho vavolombeloko any Jerosalema sy eran'i Jodia sy Samaria ary hatramin'ny faran'ny tany..."
+                                style="height: 200px"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="secondTitle">Second title</label>
+                        </div>
+                        <div class="col-75">
+                            <input
+                                type="text"
+                                id="secondTitle"
+                                name="secondTitle"
+                                placeholder="Matio 28:19.,20..."
+                            />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="secondVerse">Second verse</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea
+                                id="secondVerse"
+                                name="secondVerse"
+                                placeholder="koa mandehana ianareo, dia ataovy mpianatra ny firenena rehetra, manao batisa azy ho amin'ny anaran'ny Ray sy ny Zanaka ary ny Fanahy Masina
+          sady mampianatra azy hitandrina izay rehetra nandidiako anareo; ary, indro, Izaho momba anareo mandrakariva ambara-pahatongan'ny fahataperan'izao tontolo izao..."
+                                style="height: 200px"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <br />
+                </form>
+                <div class="row">
+                    <button onclick="reloadButton()">Submit</button>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+        </main>
+        <footer></footer>
+        <script src="app.js"></script>
+    </body>
+</html>
